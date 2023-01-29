@@ -1,0 +1,20 @@
+#container {
+    display: grid;
+  
+    
+
+}
+
+#find-weather {
+    width: 100%;
+    background-color: beige;
+}
+
+#city-input {
+    width: 100%;
+}
+
+#city-day {
+    justify-content: center;
+    align-items: center;
+}
