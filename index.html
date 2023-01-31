@@ -32,7 +32,8 @@
             <!-- This form will be where users input city -->
             <form id="city-form">
               <label form="city-input">Enter a City</label>
-              <input type="text" id="city-input"><br>
+              <input type="text" id="city-input">
+              <br>
         
               <!-- This button will trigger AJAX call -->
               <input id="find-weather" type="submit" value="Search">
@@ -54,6 +55,10 @@
         <!-- results for that day -->
             <div class="city-day">
                 <h2>Daily Weather</h2>
+                <h3 id="city"></h3>
+                <p id="wind"></p>
+                <p id="humidity"></p>
+                <p id="temp"></p>
             </div>
 
           <br>
@@ -75,6 +80,7 @@
 
 
 
+    
     <script src="/assets/script.js"></script>    
 </body>
 </html>
