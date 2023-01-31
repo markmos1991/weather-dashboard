@@ -1,8 +1,7 @@
 
  // APi Key
 var APIKey = "f33f184931595a6e106cb189ecdd0a1b";
-let lat = 0;
-let lon = 0;
+
 
  // This .on("click") function will trigger the AJAX Call
  $("#find-weather").on("click", function(event) {
