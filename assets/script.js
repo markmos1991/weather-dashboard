@@ -50,12 +50,13 @@ function renderWeather(weatherData){
   $("#wind").text("Wind Speed: " + currentDay.wind.speed + " MPH");
   $("#humidity").text("Humidity: " + currentDay.main.humidity + "%");
   $("#temp").text("Temperature: " + currentDay.main.temp);
-
-  $("#renderSection").html("");
-  // create a container, then contents of the container, add the contents inside the container, put the container on the page
-  for (var i = 8; i < weatherData.list.length; i++) {
+console.log(weatherData);
 
 }
+  // $("#renderSection").html("");
+  // // create a container, then contents of the container, add the contents inside the container, put the container on the page
+  // for (var i = 8; i < weatherData.list.length; i++) {
+
 
 
 
@@ -82,4 +83,3 @@ console.log(newDate)
 // local storage to save searched cities 
 
 // append into cards
-
